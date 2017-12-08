@@ -8,7 +8,7 @@ The unity-arkit-plugin enables using all the functionality of the ARKit SDK with
 ## Approach
 The intended approach is similar to the technique described in the [paper](http://grail.cs.washington.edu/projects/armodeling/sankar-armodeling.pdf). At a high level, the idea is to extract dominant planes from furniture items, take an image, retrieve closest matching 3D models and place the model in the scene by matching dominant planes and depth points. The extracted dominant planes from a real and virtual table are illustrated below:
 
-src="https://github.com/adityas/ARKit-RoomModeling/raw/master/img/plane-align.png" width="600">
+<img src="https://github.com/adityas/ARKit-RoomModeling/raw/master/img/plane-align.png" width="600">
 
 By aligning dominant planes, we can estimate position, orientation and scale.
 
