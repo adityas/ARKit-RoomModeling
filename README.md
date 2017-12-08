@@ -12,7 +12,7 @@ The intended approach is similar to the technique described in the [paper](http:
 I was able to set up the development environment and deploy ARKit enabled apps on my phone. With help from the included samples, I was able to extract dominant planes from the scene as shown below.
 
 <img src="https://github.com/adityas/ARKit-RoomModeling/raw/master/img/IMG-9168.JPG" width="300">
-
+<img src="https://github.com/adityas/ARKit-RoomModeling/raw/master/img/IMG-9169.JPG" width="300">
 
 Separately, I was able to send data from the device to a server via a VPN, where multiple convolutional neural networks are listening for incoming images. Once an image is received the CNN process it and returns a list of candidate 3D models to the client. The client then downloads the top result and places it into the scene.
 
