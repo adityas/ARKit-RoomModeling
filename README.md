@@ -6,7 +6,11 @@ Source code that ports the RoomModeling research project to ARKit implemented in
 The unity-arkit-plugin enables using all the functionality of the ARKit SDK within your Unity projects for iOS. The goal of this project was to port the [`3D aware in-situ room modeling`](http://grail.cs.washington.edu/projects/armodeling/) project to iOS by using ARKit and the ARKit Unity Plugin.
 
 ## Approach
-The intended approach is similar to the technique described in the [paper](http://grail.cs.washington.edu/projects/armodeling/sankar-armodeling.pdf). At a high level, the idea is to extract dominant planes from furniture items, take an image, retrieve closest matching 3D models and place the model in the scene by matching dominant planes and depth points.
+The intended approach is similar to the technique described in the [paper](http://grail.cs.washington.edu/projects/armodeling/sankar-armodeling.pdf). At a high level, the idea is to extract dominant planes from furniture items, take an image, retrieve closest matching 3D models and place the model in the scene by matching dominant planes and depth points. The extracted dominant planes from a real and virtual table are illustrated below:
+
+src="https://github.com/adityas/ARKit-RoomModeling/raw/master/img/plane-align.png" width="600">
+
+By aligning dominant planes, we can estimate position, orientation and scale.
 
 ## Progress
 I was able to set up the development environment and deploy ARKit enabled apps on my phone. With help from the included samples, I was able to extract dominant planes from the scene as shown below.
