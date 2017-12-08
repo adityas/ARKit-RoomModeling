@@ -12,7 +12,7 @@ The intended approach is similar to the technique described in the [paper](http:
 
 By aligning dominant planes, we can estimate position, orientation and scale of the 3D model that will match the scene (assuming the the planes correspond.
 
-<img src="https://github.com/adityas/ARKit-RoomModeling/raw/master/img/plane-chair.png" height="200"> <img src="https://github.com/adityas/ARKit-RoomModeling/raw/master/img/chair.png" height="200">
+<img src="https://github.com/adityas/ARKit-RoomModeling/raw/master/img/plane-chair.png" height="250"> <img src="https://github.com/adityas/ARKit-RoomModeling/raw/master/img/chair.png" height="250">
 
 Same can apply to chairs. In the right figure, it is demonstrated how a plane is extracted automatically from a 3D model by ray casting, sampling and consensus plane extraction.
 
